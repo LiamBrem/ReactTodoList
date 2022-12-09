@@ -1,4 +1,4 @@
-export default function SubmitForm() {
+function SubmitForm() {
 
     return (
         <form>
@@ -20,3 +20,5 @@ export default function SubmitForm() {
         </form>
     )
 };
+
+export default SubmitForm;

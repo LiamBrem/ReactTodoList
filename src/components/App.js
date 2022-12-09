@@ -1,4 +1,4 @@
-import Form from ".components/SubmitForm";
+import SubmitForm from "./SubmitForm";
 
 const App = (props) => {
   return (
@@ -7,7 +7,7 @@ const App = (props) => {
         <h1>Todo List</h1>
       </header>
 
-      <Form />
+      <SubmitForm />
 
     </div>
   );
