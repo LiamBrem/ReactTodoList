@@ -4,10 +4,11 @@ export default function Item(props) {
         <div>
             <input type="checkbox" />
             { props.name }
-            <button>x</button>
+            <button onClick={props.delItem(props.id)}>x</button>
 
 
         </div>
 
     );
 }; 
+

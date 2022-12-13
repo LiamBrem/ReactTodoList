@@ -5,8 +5,8 @@ export default function List(props) {
   return (
     <ul>
       {props.todos.map((task) => (
-        <li key={task.id}>
-            <Item name={task.name}/>
+        <li>
+            <Item name={task.name} key={task.id} delItem={props.delItem}/>
         </li>
       ))}
     </ul>
