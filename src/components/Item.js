@@ -2,9 +2,11 @@
 export default function Item(props) {
     return (
         <div>
-            <h3>{props.name}</h3>
             <input type="checkbox" />
-            
+            { props.name }
+            <button>x</button>
+
+
         </div>
 
     );
